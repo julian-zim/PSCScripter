@@ -1,10 +1,11 @@
 # Downloaded base model (fetch_model.py)
 models/
 
-# Generated data: text/code pairs (convert.py), folds (split.py), training runs (train.py)
-data/
-runs/
+# Generated data: folds (split.py) (training runs & training data are stored in the $DATA dir)
 splits/
+
+# Slurm
+out/
 
 # Python
 __pycache__/
